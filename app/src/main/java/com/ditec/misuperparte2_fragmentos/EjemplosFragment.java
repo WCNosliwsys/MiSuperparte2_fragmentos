@@ -23,4 +23,8 @@ public class EjemplosFragment extends AppCompatActivity {
     public void listacorreo(View view) {
         startActivity(new Intent(this,ListaCorreo.class));
     }
+
+    public void listacorreofragment(View view) {
+        startActivity(new Intent(this,MainFragmentCorreo.class));
+    }
 }
